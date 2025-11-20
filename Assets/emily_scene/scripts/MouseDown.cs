@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MouseDown : MonoBehaviour
 {
-
+    
     void OnMouseDown()
     {
         Debug.Log("Object has been clicked");
@@ -16,6 +16,6 @@ public class MouseDown : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+      
     }
 }

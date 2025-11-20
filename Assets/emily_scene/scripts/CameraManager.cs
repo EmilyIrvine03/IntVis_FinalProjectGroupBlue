@@ -6,11 +6,12 @@ public class CameraManager : MonoBehaviour
 {
     [SerializeField]
     private GameObject myGameObj;
-    [SerializeField]
-   private float speed;
+    //[SerializeField]
+   public float speed = 0.125f;
 
     private Transform target;
     private Transform player;
+    //public float smoothSpeed = 0.125f;
 
 
 
