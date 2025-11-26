@@ -74,3 +74,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 /IntAppFinalQuiz/Library
+IntAppFinalQuiz/Temp/Burst/burst-aot2jyse7dt.78l/lib_burst_generated_part_06d34a132a763cc87a1b9dbd3092e8ea.gbc
+IntAppFinalQuiz/Temp/Burst/burst-aot2jyse7dt.78l/lib_burst_generated_part_18315121a9f14c7140ec55ec386d5f0f.obj
+/IntAppFinalQuiz/Temp
