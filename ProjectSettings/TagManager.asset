@@ -4,7 +4,8 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Answers
+  - Selectable
+  - Uterus
   layers:
   - Default
   - TransparentFX
@@ -39,9 +40,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Picture
-    uniqueID: 647834483
-    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
