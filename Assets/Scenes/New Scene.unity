@@ -1365,6 +1365,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c27bd9310f6b99248afce2af704d530f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 732671678}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c27bd9310f6b99248afce2af704d530f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 732671681}
   m_SourcePrefab: {fileID: 100100000, guid: c27bd9310f6b99248afce2af704d530f, type: 3}
 --- !u!1 &139653244
 GameObject:
@@ -3456,7 +3459,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -318, y: 55}
+  m_AnchoredPosition: {x: -272, y: 109}
   m_SizeDelta: {x: 661.1984, y: 296.2621}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &319679147
@@ -4637,12 +4640,36 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
+        - m_Target: {fileID: 1827799615}
+          m_TargetAssemblyTypeName: NoOutlineBehind, Assembly-CSharp
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
   - eventID: 1
     callback:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1827799612}
           m_TargetAssemblyTypeName: Outline, Assembly-CSharp
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1827799615}
+          m_TargetAssemblyTypeName: NoOutlineBehind, Assembly-CSharp
           m_MethodName: set_enabled
           m_Mode: 6
           m_Arguments:
@@ -6406,7 +6433,7 @@ GameObject:
   - component: {fileID: 695259549}
   - component: {fileID: 695259548}
   - component: {fileID: 695259547}
-  - component: {fileID: 695259550}
+  - component: {fileID: 695259551}
   m_Layer: 5
   m_Name: ImageBtn
   m_TagString: Untagged
@@ -6477,8 +6504,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 695259550}
-        m_TargetAssemblyTypeName: OpenInstructionsWindow, Assembly-CSharp
+      - m_Target: {fileID: 695259551}
+        m_TargetAssemblyTypeName: OpenInfoPanel, Assembly-CSharp
         m_MethodName: OpenPanel
         m_Mode: 1
         m_Arguments:
@@ -6527,7 +6554,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 695259545}
   m_CullTransparentMesh: 1
---- !u!114 &695259550
+--- !u!114 &695259551
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6536,10 +6563,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 695259545}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 390c9e2b544f4ab47ad0757cd8529953, type: 3}
+  m_Script: {fileID: 11500000, guid: d10ef3a0d366400489227bc6bdaae30c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Panel: {fileID: 141688743}
+  Panel: {fileID: 0}
 --- !u!1 &714099942
 GameObject:
   m_ObjectHideFlags: 0
@@ -6576,7 +6603,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -318, y: 55}
+  m_AnchoredPosition: {x: -294, y: 148}
   m_SizeDelta: {x: 661.1984, y: 296.2621}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &714099944
@@ -6654,6 +6681,20 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!114 &732671681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732671676}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ab4629c6d9b94748839d36afdf00a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraTransform: {fileID: 666456280}
+  outline: {fileID: 732671678}
 --- !u!1 &739200888
 GameObject:
   m_ObjectHideFlags: 0
@@ -8010,12 +8051,36 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
+        - m_Target: {fileID: 1518096948}
+          m_TargetAssemblyTypeName: NoOutlineBehind, Assembly-CSharp
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
   - eventID: 1
     callback:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1518096945}
           m_TargetAssemblyTypeName: Outline, Assembly-CSharp
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1518096948}
+          m_TargetAssemblyTypeName: NoOutlineBehind, Assembly-CSharp
           m_MethodName: set_enabled
           m_Mode: 6
           m_Arguments:
@@ -8227,9 +8292,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a47349fe728ae62498ad8544d9731a15, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1535861838}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a47349fe728ae62498ad8544d9731a15, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1535861837}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a47349fe728ae62498ad8544d9731a15, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1535861839}
@@ -8980,7 +9042,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 248, y: 105}
+  m_AnchoredPosition: {x: 210, y: 16}
   m_SizeDelta: {x: 782.704, y: 328.1748}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &882794900
@@ -12071,7 +12133,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -323, y: 52}
+  m_AnchoredPosition: {x: -244, y: 3}
   m_SizeDelta: {x: 604.9657, y: 264.2885}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1316717723
@@ -12463,7 +12525,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -374, y: -5}
+  m_AnchoredPosition: {x: -282, y: -42}
   m_SizeDelta: {x: 884.5506, y: 289.7021}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1352887015
@@ -13566,7 +13628,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 216, y: 24.336182}
+  m_AnchoredPosition: {x: 183, y: 24}
   m_SizeDelta: {x: 643.3318, y: 246.5951}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1432206978
@@ -14100,6 +14162,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c27bd9310f6b99248afce2af704d530f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1518096945}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c27bd9310f6b99248afce2af704d530f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1518096948}
   m_SourcePrefab: {fileID: 100100000, guid: c27bd9310f6b99248afce2af704d530f, type: 3}
 --- !u!4 &1518096943 stripped
 Transform:
@@ -14129,6 +14194,20 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!114 &1518096948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518096944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ab4629c6d9b94748839d36afdf00a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraTransform: {fileID: 666456280}
+  outline: {fileID: 1518096945}
 --- !u!1 &1524501738
 GameObject:
   m_ObjectHideFlags: 0
@@ -14215,18 +14294,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a47349fe728ae62498ad8544d9731a15, type: 3}
   m_PrefabInstance: {fileID: 819177137}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1535861837
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1535861835}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1535861838
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16689,7 +16756,7 @@ GameObject:
   - component: {fileID: 1827584284}
   - component: {fileID: 1827584283}
   - component: {fileID: 1827584282}
-  - component: {fileID: 1827584281}
+  - component: {fileID: 1827584285}
   m_Layer: 5
   m_Name: ImageBtn
   m_TagString: Untagged
@@ -16716,19 +16783,6 @@ RectTransform:
   m_AnchoredPosition: {x: 5, y: 1}
   m_SizeDelta: {x: 255.0865, y: 154.5888}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1827584281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827584279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 390c9e2b544f4ab47ad0757cd8529953, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Panel: {fileID: 213501901}
 --- !u!114 &1827584282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16773,8 +16827,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1827584281}
-        m_TargetAssemblyTypeName: OpenInstructionsWindow, Assembly-CSharp
+      - m_Target: {fileID: 1827584285}
+        m_TargetAssemblyTypeName: OpenInfoPanel, Assembly-CSharp
         m_MethodName: OpenPanel
         m_Mode: 1
         m_Arguments:
@@ -16823,6 +16877,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827584279}
   m_CullTransparentMesh: 1
+--- !u!114 &1827584285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827584279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d10ef3a0d366400489227bc6bdaae30c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Panel: {fileID: 213501901}
 --- !u!1001 &1827799609
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16906,6 +16973,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c27bd9310f6b99248afce2af704d530f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1827799612}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c27bd9310f6b99248afce2af704d530f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1827799615}
   m_SourcePrefab: {fileID: 100100000, guid: c27bd9310f6b99248afce2af704d530f, type: 3}
 --- !u!4 &1827799610 stripped
 Transform:
@@ -16935,6 +17005,20 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!114 &1827799615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827799611}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ab4629c6d9b94748839d36afdf00a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraTransform: {fileID: 666456280}
+  outline: {fileID: 1827799612}
 --- !u!1 &1827861431
 GameObject:
   m_ObjectHideFlags: 0
@@ -18296,12 +18380,36 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
+        - m_Target: {fileID: 732671681}
+          m_TargetAssemblyTypeName: NoOutlineBehind, Assembly-CSharp
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
   - eventID: 1
     callback:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 732671678}
           m_TargetAssemblyTypeName: Outline, Assembly-CSharp
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 732671681}
+          m_TargetAssemblyTypeName: NoOutlineBehind, Assembly-CSharp
           m_MethodName: set_enabled
           m_Mode: 6
           m_Arguments:
@@ -19469,7 +19577,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 510, y: -374}
+  m_AnchoredPosition: {x: 538, y: -374}
   m_SizeDelta: {x: 635.833, y: 272.6337}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1993932105
@@ -19970,7 +20078,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2024047751}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 553a78b43ef276945a3c61bcd465b83a, type: 3}
   m_Name: 
