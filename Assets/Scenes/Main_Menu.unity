@@ -1211,6 +1211,7 @@ GameObject:
   - component: {fileID: 354622331}
   - component: {fileID: 354622330}
   - component: {fileID: 354622329}
+  - component: {fileID: 354622332}
   m_Layer: 5
   m_Name: Play_button
   m_TagString: Untagged
@@ -1281,7 +1282,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 354622330}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 354622332}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: OpenNicole_placenta_scene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &354622330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1320,6 +1333,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 354622327}
   m_CullTransparentMesh: 1
+--- !u!114 &354622332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354622327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e841f0f9da30c524a8be254b75327389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &421238275
 GameObject:
   m_ObjectHideFlags: 0
