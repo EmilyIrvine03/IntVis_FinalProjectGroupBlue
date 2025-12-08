@@ -21,9 +21,9 @@ public class ChangeScene : MonoBehaviour
         Debug.Log("Nicole_placenta_scene requested");
     }
 
-    public void OpenMarta_quiz_scene()
+    public void OpenMartaQuizScene()
     {
-        SceneManager.LoadScene("Marta_quiz_scene");
+        SceneManager.LoadScene("MartaQuizScene");
         Debug.Log("Marta_quiz_scene requested");
     }
 

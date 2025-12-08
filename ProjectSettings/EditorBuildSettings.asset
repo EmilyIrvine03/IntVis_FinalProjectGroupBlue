@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Main_Menu.unity
+    guid: 2d84c40c22014a64993a1a918a99d9a3
+  - enabled: 1
+    path: Assets/Nicole's Assets/Scenes/Nicole_placenta_scene.unity
+    guid: e02d143fe43f1bf4c8b6176697b9d718
+  - enabled: 1
+    path: Assets/Scenes/Emily_uterus_scene.unity
+    guid: 649446c204afcdb4da5f9fb92f172eb8
+  - enabled: 1
+    path: Assets/MartaScenes/MartaQuizScene.unity
+    guid: d7665bee6f871c04f80fadcb243eee0b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
