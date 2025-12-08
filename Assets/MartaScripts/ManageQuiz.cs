@@ -11,6 +11,7 @@ public class ManageQuiz : MonoBehaviour
 
     public List<GameObject> questionList;
 
+
     [SerializeField]
     private GameObject finalPanel;
    
