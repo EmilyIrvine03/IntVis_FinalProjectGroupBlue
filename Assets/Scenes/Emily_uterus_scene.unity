@@ -3829,7 +3829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 706a3fce01e0c3241832d02c59c4443b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 942564407}
   buttonSound: {fileID: 8300000, guid: 771d1c69cd4273140aa31435098d5917, type: 3}
 --- !u!224 &942564405
 RectTransform:
@@ -9673,14 +9673,14 @@ MonoBehaviour:
   BookPanel: {fileID: 3656448673557655598}
   background: {fileID: 21300000, guid: 3c47abcf3fb3d12408efe3073b2e379f, type: 3}
   bookPages:
-  - {fileID: 21300000, guid: 1d07476b58a951148b6aa93ba63b5895, type: 3}
-  - {fileID: 21300000, guid: 57a40d6b6a61f044bb0e36ec014424eb, type: 3}
-  - {fileID: 21300000, guid: 82d1f95ac2a11c9479915fceea82b746, type: 3}
-  - {fileID: 21300000, guid: 57a40d6b6a61f044bb0e36ec014424eb, type: 3}
-  - {fileID: 21300000, guid: 65f7b3f78e3fb7348b2bff31bcc35cd7, type: 3}
-  - {fileID: 21300000, guid: 57a40d6b6a61f044bb0e36ec014424eb, type: 3}
-  - {fileID: 21300000, guid: f6bed1c09de3e4641bb117420767fbad, type: 3}
-  - {fileID: 21300000, guid: 57a40d6b6a61f044bb0e36ec014424eb, type: 3}
+  - {fileID: 21300000, guid: 8c07e6815432c3546b371af037dcf24b, type: 3}
+  - {fileID: 21300000, guid: f8922b04acbdc2947a77faf6faa0ef63, type: 3}
+  - {fileID: 21300000, guid: de8e1d7fbe3bb6141b2564bece2927cc, type: 3}
+  - {fileID: 21300000, guid: f8922b04acbdc2947a77faf6faa0ef63, type: 3}
+  - {fileID: 21300000, guid: 73fb5881f02b9004eb2b560c1b2f8240, type: 3}
+  - {fileID: 21300000, guid: f8922b04acbdc2947a77faf6faa0ef63, type: 3}
+  - {fileID: 21300000, guid: 1d14e7c086f2f7e4cbc0dc3106f808ec, type: 3}
+  - {fileID: 21300000, guid: f8922b04acbdc2947a77faf6faa0ef63, type: 3}
   interactable: 1
   enableShadowEffect: 1
   currentPage: 0
