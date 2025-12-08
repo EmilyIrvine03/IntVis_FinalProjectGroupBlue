@@ -2889,7 +2889,7 @@ MonoBehaviour:
   maxQuestionIndex: 5
   myQuestionIndex: 0
   questionList:
-  - {fileID: 0}
+  - {fileID: 1338734538}
   - {fileID: 703361987}
   - {fileID: 1799417908}
   - {fileID: 352390023}
@@ -5486,7 +5486,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703361987}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -9896,6 +9896,7 @@ GameObject:
   - component: {fileID: 1196859197}
   - component: {fileID: 1196859199}
   - component: {fileID: 1196859198}
+  - component: {fileID: 1196859200}
   m_Layer: 5
   m_Name: BabyImageL
   m_TagString: Untagged
@@ -9957,6 +9958,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1196859196}
   m_CullTransparentMesh: 1
+--- !u!95 &1196859200
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196859196}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d4fd35f23b9bdc5468faa52db0d70f1d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1205238852
 GameObject:
   m_ObjectHideFlags: 0
@@ -10825,7 +10848,6 @@ GameObject:
   - component: {fileID: 1338734539}
   - component: {fileID: 1338734541}
   - component: {fileID: 1338734540}
-  - component: {fileID: 1338734542}
   m_Layer: 5
   m_Name: StartQuizPanel
   m_TagString: Untagged
@@ -10897,28 +10919,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1338734538}
   m_CullTransparentMesh: 1
---- !u!95 &1338734542
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1338734538}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3b5aa9a1fe787bb488d186b268832847, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1363056087
 GameObject:
   m_ObjectHideFlags: 0
@@ -14907,7 +14907,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1826932270}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -17419,7 +17419,7 @@ Animator:
   m_GameObject: {fileID: 2048255218}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3b5aa9a1fe787bb488d186b268832847, type: 2}
+  m_Controller: {fileID: 9100000, guid: 942cbe26a421b844689c99ea54ffcd91, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
