@@ -602,17 +602,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "3D model was a 3rd party asset downloaded from Sketchfab under the CC
-    attribution license \u2013 original creator username \u2018Biped\u2019 (Uterus
-    and fetus - Download Free 3D model by bidped (@marysweet.arado) [7c94171])\n\r\nAll
-    UI buttons downloaded from the unity asset store - \u2018Pinky UI\u2019 asset
-    pack\n\r\nAll medical knowledge gathered from \u2018TeachMeObGyn\u2019 (Placental
-    Abruption - Causes - Clinical Features - Management - TeachMeObGyn)\n\r\nAsset
-    outline downloaded from unity asset store \u2013 \u2018QuickOutline\u2019 asset
-    pack\n\r\nScript Inspiration\n\r\nRotateObj\u2019 \u2013 Interactive Application
-    Development module on the Medical Visualisation and Human Anatomy course at Glasgow
-    School of Art and Glasgow University (Matthieu Poyade, Kerri Thornton)\r\n\nAll
-    UI assets were created using 'Canva' and imported into the interface as sprites"
+  m_text: "All medical knowledge gathered from:\n\n \u2018TeachMeObGyn\u2019 (Placental
+    Abruption - Causes - Clinical Features - Management - TeachMeObGyn)\n\nRetroplacental
+    hematoma with intraplacental extension (placental abruption). Available at: https://www.pathologyoutlines.com/topic/placentaretroplacentalhematoma.html).\n\nPostpartum
+    hemorrhage - Knowledge @ AMBOSS. Available at: https://www.amboss.com/us/knowledge/postpartum-hemorrhage."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3064,8 +3057,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2142150246}
   m_HandleRect: {fileID: 2142150245}
   m_Direction: 2
-  m_Value: -0.0000032871178
-  m_Size: 0.5956065
+  m_Value: -0.0000034135453
+  m_Size: 0.59562486
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6413,7 +6406,7 @@ RectTransform:
   m_Father: {fileID: 2066913304}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0.5956065}
+  m_AnchorMax: {x: 1, y: 0.59562486}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}

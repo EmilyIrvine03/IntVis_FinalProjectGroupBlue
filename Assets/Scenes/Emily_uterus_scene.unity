@@ -3829,7 +3829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 706a3fce01e0c3241832d02c59c4443b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 942564407}
   buttonSound: {fileID: 8300000, guid: 771d1c69cd4273140aa31435098d5917, type: 3}
 --- !u!224 &942564405
 RectTransform:
@@ -3870,7 +3870,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 771d1c69cd4273140aa31435098d5917, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
