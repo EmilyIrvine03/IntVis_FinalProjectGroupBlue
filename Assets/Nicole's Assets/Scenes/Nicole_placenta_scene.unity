@@ -505,8 +505,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Umbilical cord
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -530,7 +530,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30.4
+  m_fontSize: 29.95
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -789,8 +789,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Remember: Placental ABRUPtion is the ABRUPt onset of painful bleeding'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -855,7 +855,7 @@ MonoBehaviour:
   m_margin: {x: 32, y: 24, z: 32, w: 24}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &70153624
@@ -1206,8 +1206,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1429,8 +1429,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1641,8 +1641,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Maternal vein
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1666,7 +1666,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30.4
+  m_fontSize: 29.95
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2254,8 +2254,8 @@ MonoBehaviour:
   m_text: 3. Compression of the intervillous space minimises perfusion of the placenta
     and consequently reduces foetal oxygen supply
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2320,7 +2320,7 @@ MonoBehaviour:
   m_margin: {x: 32, y: 24, z: 32, w: 24}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &191697789
@@ -2391,8 +2391,8 @@ MonoBehaviour:
   m_text: PLACENTAL ABRUPTION is the early separation of the placenta from the wall
     of the uterus (decidua basalis)
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2457,7 +2457,7 @@ MonoBehaviour:
   m_margin: {x: 32, y: 24, z: 32, w: 24}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &196506777
@@ -3074,8 +3074,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3210,8 +3210,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Retroplacental haemorrhage
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5027,8 +5027,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Chorionic villus
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5052,7 +5052,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30.4
+  m_fontSize: 29.95
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -6068,8 +6068,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: You have successfully labelled your model
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -2592283415244755766, guid: e2e32aad8b9fb724097fcd4b06fcb88d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7207,7 +7207,7 @@ GameObject:
   - component: {fileID: 746271035}
   - component: {fileID: 746271034}
   - component: {fileID: 746271033}
-  - component: {fileID: 746271032}
+  - component: {fileID: 746271036}
   m_Layer: 5
   m_Name: Bt_CloseInfoPanel
   m_TagString: Untagged
@@ -7235,19 +7235,6 @@ RectTransform:
   m_AnchoredPosition: {x: -258, y: -422}
   m_SizeDelta: {x: 266.3852, y: 86.8759}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &746271032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 746271030}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebc86d987843bd54dbc67ba1fe71ed37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Panel: {fileID: 1524501738}
 --- !u!114 &746271033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7292,9 +7279,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 746271032}
-        m_TargetAssemblyTypeName: CloseInfoPanel, Assembly-CSharp
-        m_MethodName: ClosePanel
+      - m_Target: {fileID: 746271036}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: OpenNicole_placenta_scene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7342,6 +7329,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 746271030}
   m_CullTransparentMesh: 1
+--- !u!114 &746271036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746271030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e841f0f9da30c524a8be254b75327389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &749319474
 GameObject:
   m_ObjectHideFlags: 0
@@ -7476,8 +7475,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Back
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7542,7 +7541,7 @@ MonoBehaviour:
   m_margin: {x: 32, y: 24, z: 32, w: 24}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &753975404
@@ -7612,8 +7611,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7796,8 +7795,8 @@ MonoBehaviour:
   m_text: 2. This haematoma creates a pressure that results in separation of the
     placenta from the wall of the uterus
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7862,7 +7861,7 @@ MonoBehaviour:
   m_margin: {x: 32, y: 24, z: 32, w: 24}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &776465543
@@ -7932,8 +7931,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8021,7 +8020,6 @@ GameObject:
   - component: {fileID: 793655227}
   - component: {fileID: 793655226}
   - component: {fileID: 793655225}
-  - component: {fileID: 793655228}
   m_Layer: 5
   m_Name: ImageBtn
   m_TagString: Untagged
@@ -8142,19 +8140,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 793655223}
   m_CullTransparentMesh: 1
---- !u!114 &793655228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 793655223}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d10ef3a0d366400489227bc6bdaae30c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Panel: {fileID: 0}
 --- !u!1 &799620591
 GameObject:
   m_ObjectHideFlags: 0
@@ -8639,8 +8624,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Play again
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -2592283415244755766, guid: e2e32aad8b9fb724097fcd4b06fcb88d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8989,8 +8974,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Decidua basalis
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9014,7 +8999,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30.4
+  m_fontSize: 29.95
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -10604,8 +10589,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -2592283415244755766, guid: e2e32aad8b9fb724097fcd4b06fcb88d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11407,8 +11392,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Chorionic vessels
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11432,7 +11417,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30.4
+  m_fontSize: 29.95
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -11633,8 +11618,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11922,7 +11907,7 @@ GameObject:
   - component: {fileID: 1288183501}
   - component: {fileID: 1288183500}
   - component: {fileID: 1288183499}
-  - component: {fileID: 1288183498}
+  - component: {fileID: 1288183502}
   m_Layer: 5
   m_Name: Bt_NextLevel
   m_TagString: Untagged
@@ -11951,19 +11936,6 @@ RectTransform:
   m_AnchoredPosition: {x: 209, y: -110}
   m_SizeDelta: {x: 266.3852, y: 86.8759}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1288183498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1288183496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebc86d987843bd54dbc67ba1fe71ed37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Panel: {fileID: 922028603}
 --- !u!114 &1288183499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12008,9 +11980,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1288183498}
-        m_TargetAssemblyTypeName: CloseInfoPanel, Assembly-CSharp
-        m_MethodName: ClosePanel
+      - m_Target: {fileID: 1288183502}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: OpenEmily_uterus_scene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12058,6 +12030,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1288183496}
   m_CullTransparentMesh: 1
+--- !u!114 &1288183502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288183496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e841f0f9da30c524a8be254b75327389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1308074646
 GameObject:
   m_ObjectHideFlags: 0
@@ -12654,8 +12638,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -2592283415244755766, guid: e2e32aad8b9fb724097fcd4b06fcb88d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15060,8 +15044,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Maternal artery
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15085,7 +15069,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30.4
+  m_fontSize: 29.95
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -15403,8 +15387,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Intervillous space
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15428,7 +15412,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30.4
+  m_fontSize: 29.95
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -15491,6 +15475,7 @@ GameObject:
   - component: {fileID: 1644656573}
   - component: {fileID: 1644656575}
   - component: {fileID: 1644656574}
+  - component: {fileID: 1644656576}
   m_Layer: 5
   m_Name: AudioSourceController
   m_TagString: Untagged
@@ -15711,6 +15696,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1644656576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644656572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706a3fce01e0c3241832d02c59c4443b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 1644656575}
+  buttonSound: {fileID: 8300000, guid: 771d1c69cd4273140aa31435098d5917, type: 3}
 --- !u!1 &1647310630
 GameObject:
   m_ObjectHideFlags: 0
@@ -15723,7 +15722,7 @@ GameObject:
   - component: {fileID: 1647310635}
   - component: {fileID: 1647310634}
   - component: {fileID: 1647310633}
-  - component: {fileID: 1647310632}
+  - component: {fileID: 1647310636}
   m_Layer: 5
   m_Name: Bt_MainMenu
   m_TagString: Untagged
@@ -15752,19 +15751,6 @@ RectTransform:
   m_AnchoredPosition: {x: 209, y: -110}
   m_SizeDelta: {x: 266.3852, y: 86.8759}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1647310632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1647310630}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebc86d987843bd54dbc67ba1fe71ed37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Panel: {fileID: 828362475}
 --- !u!114 &1647310633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15809,9 +15795,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1647310632}
-        m_TargetAssemblyTypeName: CloseInfoPanel, Assembly-CSharp
-        m_MethodName: ClosePanel
+      - m_Target: {fileID: 1647310636}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: OpenMain_Menu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15859,6 +15845,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647310630}
   m_CullTransparentMesh: 1
+--- !u!114 &1647310636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647310630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e841f0f9da30c524a8be254b75327389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1656435929
 GameObject:
   m_ObjectHideFlags: 0
@@ -16568,8 +16566,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16942,8 +16940,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Click here to view a labelled cross-section of the placenta
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17008,7 +17006,7 @@ MonoBehaviour:
   m_margin: {x: 32, y: 24, z: 32, w: 24}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1814299134
@@ -17351,10 +17349,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pause game
+  m_text: Back
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -2592283415244755766, guid: e2e32aad8b9fb724097fcd4b06fcb88d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17419,7 +17417,7 @@ MonoBehaviour:
   m_margin: {x: 32, y: 24, z: 32, w: 24}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1827861434
@@ -17442,7 +17440,7 @@ GameObject:
   - component: {fileID: 1833008743}
   - component: {fileID: 1833008742}
   - component: {fileID: 1833008741}
-  - component: {fileID: 1833008740}
+  - component: {fileID: 1833008744}
   m_Layer: 5
   m_Name: Bt_NextScene
   m_TagString: Untagged
@@ -17470,19 +17468,6 @@ RectTransform:
   m_AnchoredPosition: {x: 259, y: -422}
   m_SizeDelta: {x: 266.3852, y: 86.8759}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1833008740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833008738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebc86d987843bd54dbc67ba1fe71ed37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Panel: {fileID: 1524501738}
 --- !u!114 &1833008741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17527,9 +17512,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1833008740}
-        m_TargetAssemblyTypeName: CloseInfoPanel, Assembly-CSharp
-        m_MethodName: ClosePanel
+      - m_Target: {fileID: 1833008744}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: OpenEmily_uterus_scene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17577,6 +17562,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1833008738}
   m_CullTransparentMesh: 1
+--- !u!114 &1833008744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833008738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e841f0f9da30c524a8be254b75327389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1838727394
 GameObject:
   m_ObjectHideFlags: 0
@@ -17918,8 +17915,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18266,8 +18263,8 @@ MonoBehaviour:
   m_text: 1. Damaged maternal blood vessels in the decidua basalis form a collection
     of blood (haematoma)
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18332,7 +18329,7 @@ MonoBehaviour:
   m_margin: {x: 32, y: 24, z: 32, w: 24}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1888075447
@@ -18800,8 +18797,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Click here to view a labelled cross-section of the placenta
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18866,7 +18863,7 @@ MonoBehaviour:
   m_margin: {x: 32, y: 24, z: 32, w: 24}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1935821983
@@ -18966,7 +18963,7 @@ GameObject:
   - component: {fileID: 1954726634}
   - component: {fileID: 1954726633}
   m_Layer: 5
-  m_Name: Bt_Pause
+  m_Name: Bt_CloseInfoPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19588,11 +19585,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: A common cause of antepartum haemorrhage is placental abruption. The condition
-    occurs in 1% of all pregnancies and is associated with significant morbidity
-    and mortality for the mother and the foetus. It is an obstetric emergency
+    occurs in 1% of all pregnancies and is the leading cause of maternal morbidity
+    and perinatal mortality (20%). It is an obstetric emergency.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -19657,7 +19654,7 @@ MonoBehaviour:
   m_margin: {x: 32, y: 24, z: 32, w: 24}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1984520609
@@ -19962,8 +19959,8 @@ MonoBehaviour:
   m_text: "Common histopathological findings are: \r\n\r\n1. Retroplacental haemorrhage\r\n\r\n2.A
     clot that places pressure on placental tissue"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -20028,7 +20025,7 @@ MonoBehaviour:
   m_margin: {x: 32, y: 24, z: 32, w: 24}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1998711106
@@ -20648,8 +20645,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Quit game
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -2592283415244755766, guid: e2e32aad8b9fb724097fcd4b06fcb88d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -20860,8 +20857,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Antepartum haemorrhage is vaginal bleeding after 20 weeks of gestation
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
-  m_sharedMaterial: {fileID: -4835447783974096745, guid: 9b2a3e9d9cf5d364b8c10309f09c2860, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -20926,7 +20923,7 @@ MonoBehaviour:
   m_margin: {x: 32, y: 24, z: 32, w: 24}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2090431924

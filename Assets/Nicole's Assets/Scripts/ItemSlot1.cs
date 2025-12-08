@@ -47,10 +47,13 @@ public class ItemSlot1 : MonoBehaviour, IDropHandler
             //if bad response 
             else
             {
-                draggedRectTransform.anchoredPosition = draggedRectTransform.GetComponent<DragDrop>().initPos;
-                Debug.Log("Bad Response. Returned to initial position.");
+                if(draggedRectTransform != null)
+                {
+                    draggedRectTransform.anchoredPosition = draggedRectTransform.GetComponent<DragDrop>().initPos;
+                    Debug.Log("Bad Response. Returned to initial position.");
 
                     audioSource.PlayOneShot(incorrectSound, 0.7f);
+                }
             } 
         } 
     } 
