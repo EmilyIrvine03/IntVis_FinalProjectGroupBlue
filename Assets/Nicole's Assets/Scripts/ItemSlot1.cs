@@ -52,7 +52,7 @@ public class ItemSlot1 : MonoBehaviour, IDropHandler
                     draggedRectTransform.anchoredPosition = draggedRectTransform.GetComponent<DragDrop>().initPos;
                     Debug.Log("Bad Response. Returned to initial position.");
 
-                    audioSource.PlayOneShot(incorrectSound, 0.7f);
+                    audioSource.PlayOneShot(incorrectSound, 0.5f);
                 }
             } 
         } 
