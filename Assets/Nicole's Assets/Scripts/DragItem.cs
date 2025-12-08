@@ -1,7 +1,7 @@
 using UnityEngine; 
 using UnityEngine.EventSystems; 
 
-public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
+public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler, IPointerUpHandler
 
 { 
     
@@ -9,6 +9,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     private CanvasGroup canvasGroup; 
     private Canvas canvas; 
     public Vector3 initPos; 
+    public MouseCameraDragOrbitWithZoom cameraOrbit;
 
     private void Awake () 
     { 
@@ -16,11 +17,13 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         canvasGroup = GetComponent<CanvasGroup>(); 
         canvas = GetComponentInParent<Canvas>();   //parent canvas 
         initPos = rectTransform.anchoredPosition; 
+        cameraOrbit = FindFirstObjectByType<MouseCameraDragOrbitWithZoom>();
     } 
 
     public void OnPointerDown (PointerEventData eventData)  //detects mouse click on object 
     { 
-        Debug.Log("Mouse Down"); 
+        Debug.Log("Mouse Down");
+        cameraOrbit.enabled = false; 
     }
 
     public void OnBeginDrag(PointerEventData eventData)   //triggers when dragging starts 
@@ -45,5 +48,10 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         canvasGroup.alpha = 1f;   //resets the transparency 
         canvasGroup.blocksRaycasts = true;    ///restores raycast blocking 
     } 
+
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        cameraOrbit.enabled = true;
+    }
 
 } 

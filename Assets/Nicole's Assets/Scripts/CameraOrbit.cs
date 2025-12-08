@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 /* 
  * This is an improved orbit script based on the MouseOrbitImproved script found
  * on the unity community wiki. It should run smoother then the original version
@@ -45,10 +46,16 @@ public class MouseCameraDragOrbitWithZoom  : MonoBehaviour
 
     private Vector3 previousMousePos;
 
+    public Vector3 cameraStartPos;
+    public Vector3 startAngle;
+    public Slider slider;
+
     // Start is called before the first frame update
     void Start()
     {
-		Vector3 angles = transform.eulerAngles;
+        cameraStartPos = transform.position;
+	    startAngle = transform.eulerAngles;
+        Vector3 angles = transform.eulerAngles;
 		rotationYAxis = angles.y;
 		rotationXAxis = angles.x;
 
@@ -124,6 +131,25 @@ public class MouseCameraDragOrbitWithZoom  : MonoBehaviour
 			angle -= 360F;
 		return Mathf.Clamp(angle, min, max);
 	}
+
+    public void ResetPosition()
+    {
+        slider.value = 0;
+        transform.position = cameraStartPos;
+        transform.eulerAngles = startAngle;
+        Vector3 angles = transform.eulerAngles;
+		rotationYAxis = angles.y;
+		rotationXAxis = angles.x;
+
+        //Orientate the Camera so it look at the target obj
+        transform.LookAt(target,Vector3.up);
+
+        //Calculate distance between Camera and target object
+        distance = Vector3.Distance(transform.position,target.position); 
+
+        //Store Value of Mouse position as previous
+        previousMousePos = Input.mousePosition;
+    }
 }
 
 
