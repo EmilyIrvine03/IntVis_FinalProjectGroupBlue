@@ -2,18 +2,18 @@ using UnityEngine;
 
 public class MouseDown : MonoBehaviour
 {
-    
+    // I was having some issues with the button clicks so I assigned this script to the objects so I could see which of them was being clicked
     void OnMouseDown()
     {
         Debug.Log("Object has been clicked");
     }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+  
     void Update()
     {
       

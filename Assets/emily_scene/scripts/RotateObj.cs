@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class RotateObj : MonoBehaviour
 {
+    //This script allows the player to rotate the object using the keyboard and allows for the speed to be visible in the inspector so it can be manipulated easily
     public float rotationSpeed;
     public float rotationDuration;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -13,6 +14,7 @@ public class RotateObj : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (Input.GetKey(KeyCode.RightArrow))
         {
             Debug.Log("Right");

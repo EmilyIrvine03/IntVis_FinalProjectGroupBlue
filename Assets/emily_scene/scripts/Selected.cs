@@ -33,8 +33,6 @@ public class Selected : MonoBehaviour
             //myOutlineScript.enabled = true;
             //Debug.Log("Mouse over gameobject");
         }
-
-
         //void OnMouseExit()
         {
             //myOutlineScript.enabled = false;

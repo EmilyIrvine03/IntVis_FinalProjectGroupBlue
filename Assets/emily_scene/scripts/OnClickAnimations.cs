@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class OnClickAnimations : MonoBehaviour
 {
+    //This script allowed for animations to be triggered on objects
     Animator thisAnimator;
     public GameObject myAnimatedObj;
 
