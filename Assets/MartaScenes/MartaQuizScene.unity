@@ -10294,7 +10294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   userResponse: {fileID: 0}
-  CorrectResponse: {fileID: 1379088435}
+  CorrectResponse: {fileID: 310593905}
   positiveFeedback: {fileID: 1405913486}
   negativeFeedback: {fileID: 1477149328}
   myToggleGroup: {fileID: 877766249}
@@ -26316,14 +26316,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Answer: B
-
-
-    Placenta previa typically causes painless brigh-red bleeding
-    in the third trimestre because the placenta ovaries it is near the cervical OS
-    (small opening at each end of the cervix).
-
-'
+  m_text: "Answer: A\n\nPlacenta abruption presents with painful bleeding, abdominal
+    tenderness and a rigid uterus due to concealed bleeding. \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 04041b07d486a5f43b9ff00afecaf085, type: 2}
   m_sharedMaterial: {fileID: -3132259559948788056, guid: 04041b07d486a5f43b9ff00afecaf085, type: 2}
@@ -26350,8 +26344,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 47
-  m_fontSizeBase: 47
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
